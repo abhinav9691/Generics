@@ -1,5 +1,5 @@
 ﻿
 using Generics;
 
-IntComparison<int> i = new IntComparison<int>();
-Console.WriteLine(i.Comparevalues(4, 5, 6));
+IntComparison<float> f = new IntComparison<float>();
+Console.WriteLine(f.Comparevalues(4.4f, 6.6f, 2.3f));
